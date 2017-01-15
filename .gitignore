@@ -27,3 +27,15 @@
 *.exe
 *.out
 *.app
+
+########################################
+
+# Doxygen output (if any)
+html/
+latex/
+
+# Skip gedit temp files
+*~
+
+# Skip vim temp files
+*.swp
