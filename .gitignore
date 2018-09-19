@@ -1,3 +1,8 @@
+# https://github.com/github/gitignore/blob/master/C%2B%2B.gitignore
+
+# Prerequisites
+*.d
+
 # Compiled Object files
 *.slo
 *.lo
@@ -39,3 +44,8 @@ latex/
 
 # Skip vim temp files
 *.swp
+
+
+# Skip data files (in case they are huge!)
+*.dat
+data/
